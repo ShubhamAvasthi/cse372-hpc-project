@@ -26,6 +26,6 @@ $ ipcluster start -n x --engines=MPIEngineSetLauncher
 ```
 For example, for 4 engines:
 ```console
-$ ipcluster start -n x --engines=MPIEngineSetLauncher
+$ ipcluster start -n 4 --engines=MPIEngineSetLauncher
 ```
 After running the above command, the Parallel section of the notebook can be executed.

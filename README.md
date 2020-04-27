@@ -2,7 +2,9 @@
 
 This is my project for CSE-372: Introduction to High Performance Computing taught at IIT (BHU) Varanasi.
 
-## Installations
+## Setup and Installations
+Download Salinas.mat from [here](http://www.ehu.eus/ccwintco/uploads/f/f1/Salinas.mat).
+
 You need to install an MPI implementation (like OpenMPI), mpi4py for MPI bindings and ipyparallel to run "HPC Fast ALP RLS Implementation.ipynb".
 1. To install OpenMPI:
    ```console
@@ -26,6 +28,6 @@ $ ipcluster start -n x --engines=MPIEngineSetLauncher
 ```
 For example, for 4 engines:
 ```console
-$ ipcluster start -n x --engines=MPIEngineSetLauncher
+$ ipcluster start -n 4 --engines=MPIEngineSetLauncher
 ```
 After running the above command, the Parallel section of the notebook can be executed.
